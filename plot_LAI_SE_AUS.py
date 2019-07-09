@@ -50,4 +50,6 @@ ax.text(0.5, -0.1, 'Longitude', va='bottom', ha='center',
         rotation='horizontal', rotation_mode='anchor',
         transform=ax.transAxes, fontsize=14)
 
+fig.savefig("SE_AUS_GIMMS_LAI3g_ver2.png", dpi=150, bbox_inches='tight',
+            pad_inches=0.1)
 plt.show()
